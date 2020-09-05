@@ -196,6 +196,8 @@ a.btn.white_btn:hover {
 }
 
 .tp-caption.tp-shape.tp-shapewrapper.rs-parallaxlevel-0 {
-	background-color: rgba(0, 0, 0, 0.4) !important;
+	/* background-color: rgba(0, 0, 0, 0.4) !important; */
+	/* Abhash changed the opacity */
+	background-color: rgba(0, 0, 0, 0) !important;
 }
 
