@@ -1,5 +1,3 @@
-"# my-apps" 
-
-AI Healthcare App
+# AI Healthcare App #
 
 Web app for detecting the vitals of humans
