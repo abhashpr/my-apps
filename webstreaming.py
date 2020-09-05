@@ -20,11 +20,12 @@ lock = threading.Lock()
 # initialize a flask object
 app = Flask(__name__)
 
-# initialize the video stream and allow the camera sensor to
-# warmup
-#vs = VideoStream(usePiCamera=1).start()
-vs = VideoStream(src=0).start()
-time.sleep(2.0)
+def trigger_webcam():
+	# initialize the video stream and allow the camera sensor to
+	# warmup
+	#vs = VideoStream(usePiCamera=1).start()
+	vs = VideoStream(src=0).start()
+	time.sleep(2.0)
 
 def detect_motion(frameCount):
 	# grab global references to the video stream, output frame, and
