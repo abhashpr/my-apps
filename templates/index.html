@@ -88,8 +88,9 @@
           <!-- menu start -->
           <div class="menu_side">
             <div id="navbar_menu">
-              <ul class="first-ul">
-                <li> <a class="active" href="it_home.html">Home</a>
+              
+			  <ul class="first-ul">
+                <li> <a class="active" href="{{ url_for('index') }}">Home</a>
                   <ul>
                     <li><a href="it_home.html">It Home Page</a></li>
                     <li><a href="it_home_dark.html">It Dark Home Page</a></li>
@@ -118,7 +119,8 @@
                     <li><a href="it_error.html">Error 404</a></li>
                   </ul>
                 </li>
-                <li> <a href="it_shop.html">Shop</a>
+                <!--
+				<li> <a href="it_shop.html">Shop</a>
                   <ul>
                     <li><a href="it_shop.html">Shop List</a></li>
                     <li><a href="it_shop_detail.html">Shop Detail</a></li>
@@ -126,12 +128,15 @@
                     <li><a href="it_checkout.html">Checkout</a></li>
                   </ul>
                 </li>
+				-->
                 <li> <a href="it_contact.html">Contact</a>
                   <ul>
                     <li><a href="it_contact.html">Contact Page 1</a></li>
                     <li><a href="it_contact_2.html">Contact Page 2</a></li>
                   </ul>
                 </li>
+				<li> <a class="active" style="background: green; color: white; margin: 0 5px 0 5px;" href="{{ url_for('demo') }}">Demo</a></li>
+				
               </ul>
             </div>
             <div class="search_icon">
